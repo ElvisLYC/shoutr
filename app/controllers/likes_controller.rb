@@ -15,6 +15,5 @@ class LikesController < ApplicationController
 
   def shout
     @_shout ||= Shout.find(params[:id])
-    #google what double pipe equal does
   end
 end
