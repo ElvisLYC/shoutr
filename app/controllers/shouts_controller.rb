@@ -15,7 +15,6 @@ class ShoutsController < ApplicationController
   end
 
   def content_from_params
-    byebug
     params[:default][:content_type].new(content_params)
   end
 
